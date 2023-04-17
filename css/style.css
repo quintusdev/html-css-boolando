@@ -110,7 +110,6 @@ main {
     width: 70%;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     flex-wrap: wrap;
 }
 
@@ -124,11 +123,9 @@ main {
     width: 100%;
 }
 
-/* .cont-pr img:hover{
-    background-image: url(../img/1b.webp);
-    position: relative;
-    width: 100%;
-} */
+.sfondo :hover{
+    background: url(../img/1b.webp);
+}
 
 .square {
     padding: 5px 6px;
@@ -160,9 +157,9 @@ main {
 }
 
 .rect {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
     font-weight: 800;
     text-align: center;
 }
@@ -180,16 +177,15 @@ main {
 }
 /* STYLE DESCR PRODOTTO */
 .brand {
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .article{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
 }
 
 .price {
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .price .pr-ok {
