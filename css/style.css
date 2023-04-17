@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* STYLE HEADER */
+
+    .container-hdr {                             
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff6900;
+        padding: 20px 0;
+        margin-bottom: 50px;
+    }
+
+/* STYLE ROW HEADER */
+    .row-hdr {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+/* STYLE COLONNE HEADER */
+    .col20 {
+        display: flex;
+        width: 20%;
+    }
+
+    .center{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+/* FINE STYLE COLONNE HEADER */
+
+
+/* STYLE CONTENUTO COLONNE */
+
+/* STYLE COLONNA SX */
+    .col20 .content-sx a {
+        display: inline-block;
+        justify-content: left;
+        align-items: center;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+
+/* STYLE COLONNA CENTRALE */
+    .content-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-menu img {
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        text-align: center;
+    }
+
+/* STYLE COLONNA DX */
+
+    .col20-icon{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .content-icons i{
+        width: 32px;
+        height: 32px;
+        color: #fff;
+        padding-left: 10px;
+    }
+
+/* FINE STYLE HEADER */
+
+
+/* INIZIO MAIN */
+
+.container-main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.row-main {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.col33 {
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col33 .cont-pr {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-pr img {
+    width: 100%;
+}
+
+/* FINE ROW MAIN */
+
+
+/* STYLE SCONTO - DISPONIBILITA' - CUORE */
+
+
+
+
+/* .sconto{                             
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cuore{                                 
+    color: red;
+    font-size: 35px;
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+} */
+
+section:hover .cuore{                 
+    display: inline-block;
+}
