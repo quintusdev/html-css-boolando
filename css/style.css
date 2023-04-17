@@ -16,6 +16,7 @@ header {
 }
 main {
     padding-top: 130px;
+    padding-bottom: 60px;
 }
 
 /* STYLE HEADER */
@@ -196,28 +197,68 @@ main {
 
 /* FINE ROW MAIN */
 
+/* STYLE FOOTER */
 
-/* STYLE SCONTO - DISPONIBILITA' - CUORE */
-
-
-
-
-/* .sconto{                             
-    background-color: green;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
+.container-foot {                           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px 0;
 }
 
-.cuore{                                 
-    color: red;
-    font-size: 35px;
-    position: absolute;
-    bottom: 0px;
-    right: 50%;
-} */
+.row-foot {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
 
-section:hover .cuore{                 
+.col33-foot {
+    display: flex;
+    width: calc(100% / 2 - 20px);
+    margin: 0 10px;
+}
+
+.content-sx-foot a{
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+    font-size: 10px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.content-sx-foot #marchio{
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* style icone footer */
+
+.col33-icon {
+    justify-content: right;
+    align-items: center;
+    color: #fff;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.col33-icon a{
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.col33-icon i{
     display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    color: #fff;
 }
