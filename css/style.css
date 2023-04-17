@@ -9,6 +9,15 @@ body {
     margin: 0 auto;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+main {
+    padding-top: 130px;
+}
+
 /* STYLE HEADER */
 
     .container-hdr {                             
@@ -67,8 +76,6 @@ body {
     .content-menu img {
         display: flex;
         width: 20%;
-        justify-content: center;
-        text-align: center;
     }
 
 /* STYLE COLONNA DX */
@@ -83,7 +90,7 @@ body {
         width: 32px;
         height: 32px;
         color: #fff;
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
 /* FINE STYLE HEADER */
@@ -96,7 +103,6 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: green;
 }
 
 .row-main {
@@ -105,25 +111,92 @@ body {
     justify-content: center;
     align-items: center;
     background-color: blue;
+    flex-wrap: wrap;
 }
 
 .col33 {
     width: calc(100% / 3 - 20px);
-    margin: 0 10px;
+    margin: 10px 10px;
+}
+
+.sfondo {
+    position: relative;
+    width: 100%;
+}
+
+/* .cont-pr img:hover{
+    background-image: url(../img/1b.webp);
+    position: relative;
+    width: 100%;
+} */
+
+.square {
+    padding: 5px 6px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.red {
     background-color: red;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.col33 .cont-pr {
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+.green {
+    background-color: green;
 }
 
-.cont-pr img {
-    width: 100%;
+.white {
+    background-color: #fff;
 }
+
+.position-relative {
+    position: relative;
+}
+
+.cuore-label {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.rect {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.price-offer-label {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.price-offer {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+/* STYLE DESCR PRODOTTO */
+.brand {
+    font-size: 18px;
+}
+
+.article{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.price .pr-ok {
+    color: red;
+    font-weight: 700;
+}
+
 
 /* FINE ROW MAIN */
 
