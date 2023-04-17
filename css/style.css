@@ -160,10 +160,15 @@ main {
     position: relative;
 }
 
+/* STYLE CUORE PREFERITI */
 .cuore-label {
     position: absolute;
     right: 0;
     top: 10px;
+}
+
+.cuore-label:hover {
+    color: red;
 }
 
 .rect {
@@ -185,6 +190,8 @@ main {
     left: 50px;
     bottom: 50px;
 }
+/* STYLE CUORE PREFERITI */
+
 /* STYLE DESCR PRODOTTO */
 .brand {
     font-size: 12px;
@@ -246,7 +253,6 @@ main {
 }
 
 /* STYLE FOOTER */
-
 .col33-icon {
     justify-content: right;
     align-items: center;
@@ -271,3 +277,4 @@ main {
     padding-top: 20px;
     color: #fff;
 }
+/* FINE STYLE FOOTER */
