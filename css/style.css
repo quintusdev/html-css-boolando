@@ -124,8 +124,17 @@ main {
     width: 100%;
 }
 
-.sfondo :hover{
-    background: url(../img/1b.webp);
+/* HOVER SECONDA IMMAGINE PRODOTTO 1 */
+.img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+}
+
+.col33:hover .img2{
+    display: block;
 }
 
 .square {
@@ -236,7 +245,7 @@ main {
     margin-bottom: 5px;
 }
 
-/* style icone footer */
+/* STYLE FOOTER */
 
 .col33-icon {
     justify-content: right;
